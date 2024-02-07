@@ -1,3 +1,4 @@
+# LINKY
 ## ABOUT
 - Welcome to [Linky](), a revolutionary tool designed to streamline the research and education workflow for educators,
 - researchers, and students. Our platform recognizes the diverse needs of knowledge workers and offers a comprehensive
@@ -11,6 +12,8 @@
 * __View__ a private list of projects
 * __Delete__ project
 * __Delete__ link
+
+## OBJECTIVES
 
 ## Entities
 ### Users:
@@ -80,6 +83,8 @@
 [//]: # (2. Navigate into the project: ``` cd  linky-project``` Run steps 2 and 3 from the [INSTALLATION] stage above.)
 
 [//]: # (3. )
+
+## BEST PRACTICES
 
 ## TODO
 - Add windows installation instructions
