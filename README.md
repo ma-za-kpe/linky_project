@@ -35,14 +35,14 @@
 ### Projects:
 **`created_by`**: *The user who created the project.*
 
-**`title`**: *The title or name of the project.*
-**` description`**: *A description of the project, outlining its purpose and goals.*
-**`created_by`**: *The user who created the project.*
-**`date_created`**: *The date when the project was created.*
-**`last_modified`**: *The date when the project was last modified.*
-**`visibility`**: *The visibility settings of the project (e.g., public, private, shared).*
-**`collaborators`**: *A list of users who have access to the project and can collaborate on it.*
-**`links`**: *A collection of links associated with the project.*
+- **`title`**: *The title or name of the project.*
+- **` description`**: *A description of the project, outlining its purpose and goals.*
+- **`created_by`**: *The user who created the project.*
+- **`date_created`**: *The date when the project was created.*
+- **`last_modified`**: *The date when the project was last modified.*
+- **`visibility`**: *The visibility settings of the project (e.g., public, private, shared).*
+- **`collaborators`**: *A list of users who have access to the project and can collaborate on it.*
+- **`links`**: *A collection of links associated with the project.*
 
 ## Libraries
 1.  [Django REST framework](https://www.django-rest-framework.org/)
