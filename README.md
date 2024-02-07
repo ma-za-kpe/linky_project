@@ -1,11 +1,11 @@
 ## ABOUT
-- Welcome to [Linky], a revolutionary tool designed to streamline the research and education workflow for educators,
+- Welcome to [Linky](), a revolutionary tool designed to streamline the research and education workflow for educators,
 - researchers, and students. Our platform recognizes the diverse needs of knowledge workers and offers a comprehensive
 - solution to address common challenges such as information overload, fragmented workflows, and the absence of effective
-- collaboration tools. With [linky], users have the power to group their research materials and resources into 
+- collaboration tools. With [linky](), users have the power to group their research materials and resources into 
 - organized projects, facilitating efficient management and collaboration within their academic and research endeavors.
 ## Key Features
-* Add Links: Easily add URLs and links to projects, allowing users to collect and organize relevant research materials,
+* __Add__ Links: Easily add URLs and links to projects, allowing users to collect and organize relevant research materials,
   articles, papers, and resources.
 * View a list of projects created by other users
 * View a private list of projects
@@ -42,7 +42,7 @@
 - **`collaborators`**: *A list of users who have access to the project and can collaborate on it.*
 - **`links`**: *A collection of links associated with the project.*
 
-## Libraries
+## LIBRARIES
 1.  [Django REST framework](https://www.django-rest-framework.org/)
 2. [django-cors-headers](https://pypi.org/project/django-cors-headers/)
 3. [django-rest-auth](https://django-rest-auth.readthedocs.io/en/latest/installation.html)
@@ -50,7 +50,7 @@
 5. [PyYAML](https://pypi.org/project/PyYAML/)
 6. [uritemplate](https://pypi.org/project/uritemplate/)
 7. [Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/)
-8. []()
+8. [More ...]()
 
 ## INSTALLATION (MAC OS)
 - Always refer to the [Django Installation](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
@@ -82,5 +82,5 @@
 [//]: # (3. )
 
 ## TODO
-- add windows installation instructions
+- Add windows installation instructions
 # linky_project
