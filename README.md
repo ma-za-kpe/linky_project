@@ -1,7 +1,7 @@
 # LINKY - _Revolutionizing Knowledge Management_
 ## ABOUT
 - Welcome to [Linky](), a revolutionary tool designed to streamline the research and education workflow for educators, researchers, and students. Our platform recognizes the diverse needs of knowledge workers and offers a comprehensive solution to address common challenges such as information overload, fragmented workflows, and the absence of effective collaboration tools. With [linky](), users have the power to group their research materials and resources into organized projects, facilitating efficient management and collaboration within their academic and research endeavors.
-## Key Features
+## KEY FEATURES
 * __Add__ Links: Easily add URLs and links to projects, allowing users to collect and organize relevant research materials,
   articles, papers, and resources.
 * __View__ a list of projects created by other users
@@ -13,7 +13,7 @@
 
 ## DEPLOYMENT
 
-## Entities
+## ENTITIES
 ### Users:
 - **` username`**: *The username of the user.*
 - **`email`**: *The email address of the user. *
