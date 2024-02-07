@@ -14,27 +14,25 @@
 
 ## Entities
 ### Users:
-* username: The username of the user.
-* email: The email address of the user. 
-* password: The hashed password of the user.
-* full_name: The full name of the user.
-* bio: A short biography or description provided by the user.
-* profile_picture: The profile picture of the user.
-* registration_date: The date when the user registered on the platform.
-* role: The role of the user (e.g., professor, researcher, student).
-* institution: The educational institution or organization associated with the user.
+- **` username`**: *The username of the user.*
+- **`email`**: *The email address of the user. *
+- **`password`**: *The hashed password of the user.*
+- **`full_name`**: *The full name of the user.*
+- **`bio`**: *A short biography or description provided by the user.*
+- **`profile_picture`**: *The profile picture of the user.*
+- **`registration_date`**: *The date when the user registered on the platform.*
+- **`role`**: *The role of the user (e.g., professor, researcher, student).*
+- **`institution`**: *The educational institution or organization associated with the user.*
 
 ### Links (URLs):
-* url: The URL of the link.
-* title: The title or name associated with the link.
-* description: A brief description or summary of the content of the link.
-* added_by: The user who added the link to a project.
-* date_added: The date when the link was added to the project.
-* tags: Optional tags or labels to categorize the link (e.g., research, reference, article).
+- **` url`**: *The URL of the link.*
+- **`title`**: *The title or name associated with the link.*
+- **`description`**: *A brief description or summary of the content of the link.*
+- **`added_by`**: *The user who added the link to a project.*
+- **`date_added`**: *The date when the link was added to the project.*
+- **`tags`**: *Optional tags or labels to categorize the link (e.g., research, reference, article).*
 
 ### Projects:
-**`created_by`**: *The user who created the project.*
-
 - **`title`**: *The title or name of the project.*
 - **` description`**: *A description of the project, outlining its purpose and goals.*
 - **`created_by`**: *The user who created the project.*
