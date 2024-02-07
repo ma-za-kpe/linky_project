@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mac/Documents/projects/web/linky-project/linky-env"
+set -gx VIRTUAL_ENV "/Users/mac/Documents/projects/web/linky_project/linky-env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
