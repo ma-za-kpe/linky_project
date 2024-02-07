@@ -88,4 +88,3 @@
 
 ## TODO
 - Add windows installation instructions
-# linky_project
