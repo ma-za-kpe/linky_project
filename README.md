@@ -7,10 +7,10 @@
 ## Key Features
 * __Add__ Links: Easily add URLs and links to projects, allowing users to collect and organize relevant research materials,
   articles, papers, and resources.
-* View a list of projects created by other users
-* View a private list of projects
-* Delete project
-* Delete link
+* __View__ a list of projects created by other users
+* __View__ a private list of projects
+* __Delete__ project
+* __Delete__ link
 
 ## Entities
 ### Users:
