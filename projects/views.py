@@ -1,6 +1,7 @@
 from rest_framework import viewsets
-from .models import Project, Link
-from .serializers import ProjectSerializer, LinkSerializer
+from .models import Project, Link, Team
+from .serializers import ProjectSerializer, LinkSerializer, TeamSerializer
+from rest_framework.pagination import PageNumberPagination
 
 class ProjectsViewSet(viewsets.ModelViewSet):
     """
@@ -26,6 +27,8 @@ class ProjectsViewSet(viewsets.ModelViewSet):
     """
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
+    pagination_class = PageNumberPagination
+
 
 class LinkViewSet(viewsets.ModelViewSet):
     """
@@ -51,3 +54,31 @@ class LinkViewSet(viewsets.ModelViewSet):
     """
     queryset = Link.objects.all()
     serializer_class = LinkSerializer
+    pagination_class = PageNumberPagination
+
+
+class TeamViewSet(viewsets.ModelViewSet):
+    """
+    A viewset that provides CRUD operations for Teams.
+
+    retrieve:
+    Return a specific Team instance.
+
+    list:
+    Return a list of all Teams.
+
+    create:
+    Create a new Team instance.
+
+    update:
+    Update an existing Team instance.
+
+    partial_update:
+    Partially update an existing Team instance.
+
+    destroy:
+    Delete a Team instance.
+    """
+    queryset = Team.objects.all()
+    serializer_class = TeamSerializer
+    pagination_class = PageNumberPagination
