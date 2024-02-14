@@ -1,5 +1,6 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, permissions
 from .models import Project, Link, Team
+from .permissions import IsOwnerOrReadOnly, IsMemberOfTeam
 from .serializers import ProjectSerializer, LinkSerializer, TeamSerializer
 from rest_framework.pagination import PageNumberPagination
 
@@ -25,6 +26,7 @@ class ProjectsViewSet(viewsets.ModelViewSet):
     destroy:
     Delete a project instance.
     """
+    permission_classes = [IsOwnerOrReadOnly]
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
     pagination_class = PageNumberPagination
@@ -82,3 +84,4 @@ class TeamViewSet(viewsets.ModelViewSet):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
     pagination_class = PageNumberPagination
+    
