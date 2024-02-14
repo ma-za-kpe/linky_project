@@ -69,7 +69,7 @@
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python3 -m venv linky-env`
 3. Activate Virtual Environment: `source linky-env/bin/activate`
-4. Install django: `python -m pip install Django djangorestframework django-cors-headers Pillow`
+4. Install django: `python -m pip install Django djangorestframework django-cors-headers Pillow pyyaml uritemplate coreapi pygments markdown drf-yasg`
 5. Perform Initial Database Migrations: `python3 manage.py migrate`
 6. (Optional) Create Superuser: `python3 manage.py createsuperuser`
 7. Run Development Server: `python3 manage.py runserver`
