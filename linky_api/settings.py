@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # local
     'projects.apps.ProjectsConfig',
+    'profiles.apps.ProfilesConfig',
 ]
 
 REST_FRAMEWORK = {
