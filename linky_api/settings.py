@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -21,7 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-z#@u-+#x=xe&#(dw-ukglx8y9=s3jbfbxlrpqfn(c*&_d6bc36'
+# move key to env variables
+SECRET_KEY =  os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -64,9 +69,9 @@ REST_AUTH = {
 }
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-    ],
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    # ],
     
     'DEFAULT_RENDERER_CLASSES': (
         # CamelCaseJSONParser or CamelCaseJSONRenderer, all property names will be converted to camelCase by default.
@@ -74,18 +79,20 @@ REST_FRAMEWORK = {
         'djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer',
         # Any other renders
     ),
-
-    'DEFAULT_PARSER_CLASSES': (
-        # If you use MultiPartFormParser or FormParser, we also have a camel case version
-        'djangorestframework_camel_case.parser.CamelCaseFormParser',
-        'djangorestframework_camel_case.parser.CamelCaseMultiPartParser',
-        'djangorestframework_camel_case.parser.CamelCaseJSONParser',
-    ),
+    # 'DEFAULT_PARSER_CLASSES': (
+    #     # If you use MultiPartFormParser or FormParser, we also have a camel case version
+    #     'djangorestframework_camel_case.parser.CamelCaseFormParser',
+    #     'djangorestframework_camel_case.parser.CamelCaseMultiPartParser',
+    #     'djangorestframework_camel_case.parser.CamelCaseJSONParser',
+    # ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 10,
     'DEFAULT_AUTHENTICATION_CLASSES': [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
-    ]
+    ],
+    'JSON_UNDERSCOREIZE': {
+        'no_underscore_before_number': True,
+    },
 }
 
 MIDDLEWARE = [
