@@ -10,7 +10,7 @@ services:
     name: linky
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn linky.asgi:application -k uvicorn.workers.UvicornWorker"
+    startCommand: "python -m gunicorn linky_project.asgi:application -k uvicorn.workers.UvicornWorker"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
