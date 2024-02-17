@@ -80,7 +80,7 @@
 - `python3 -m venv linky-env`
 - `source linky-env/bin/activate`
 - `python -m pip install Django`
-- `django-admin startproject linky_api .`
+- `django-admin startproject clinky-apiore .`
 - `python3 manage.py migrate`
 - `python3 manage.py runserver`
 - `python3 manage.py makemigrations posts`
