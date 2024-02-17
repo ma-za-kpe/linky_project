@@ -70,7 +70,7 @@
 2. Set Up Virtual Environment: `python3 -m venv linky-env`
 3. Activate Virtual Environment: `source linky-env/bin/activate`
 <!-- Consult with lucky -->
-4. Install django: `python -m pip install Django djangorestframework django-cors-headers Pillow pyyaml uritemplate coreapi pygments markdown drf-yasg djangorestframework-camel-case dj-rest-auth django-allauth`
+4. Install all dependecies: `pip install -r requirements.txt`
 5. Perform Initial Database Migrations: `python3 manage.py migrate`
 6. (Optional) Create Superuser: `python3 manage.py createsuperuser`
 7. Run Development Server: `python3 manage.py runserver`
