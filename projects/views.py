@@ -54,6 +54,7 @@ class LinkViewSet(viewsets.ModelViewSet):
     destroy:
     Delete a link instance.
     """
+    permission_classes = [IsOwnerOrReadOnly]
     queryset = Link.objects.all()
     serializer_class = LinkSerializer
     pagination_class = PageNumberPagination
@@ -81,6 +82,7 @@ class TeamViewSet(viewsets.ModelViewSet):
     destroy:
     Delete a Team instance.
     """
+    permission_classes = [IsOwnerOrReadOnly]
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
     pagination_class = PageNumberPagination

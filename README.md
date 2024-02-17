@@ -69,7 +69,8 @@
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python3 -m venv linky-env`
 3. Activate Virtual Environment: `source linky-env/bin/activate`
-4. Install django: `python -m pip install Django djangorestframework django-cors-headers Pillow pyyaml uritemplate coreapi pygments markdown drf-yasg djangorestframework-camel-case`
+<!-- Consult with lucky -->
+4. Install django: `python -m pip install Django djangorestframework django-cors-headers Pillow pyyaml uritemplate coreapi pygments markdown drf-yasg djangorestframework-camel-case dj-rest-auth django-allauth`
 5. Perform Initial Database Migrations: `python3 manage.py migrate`
 6. (Optional) Create Superuser: `python3 manage.py createsuperuser`
 7. Run Development Server: `python3 manage.py runserver`
@@ -90,6 +91,14 @@
 [//]: # "1. Open terminal and navigate to your desktop folder run: ``` mkdir linky-project ```"
 [//]: # "2. Navigate into the project: ``` cd  linky-project``` Run steps 2 and 3 from the [INSTALLATION] stage above."
 [//]: # "3. "
+
+<!-- # Windows
+$ cd onedrive\desktop\
+$ mkdir django_auth
+$ cd django_auth
+$ python -m venv .venv
+$ .venv\Scripts\Activate.ps1
+(.venv) $ python -m pip install django~=5.0.0 -->
 
 ## BEST PRACTICES
 

@@ -1,6 +1,7 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, permissions
 from .models import Profile
 from .serializers import ProfileSerializer
+from projects.permissions import IsOwnerOrReadOnly
 
 class ProfileViewSet(viewsets.ModelViewSet):
     """
@@ -24,5 +25,6 @@ class ProfileViewSet(viewsets.ModelViewSet):
     destroy:
     Delete a profile instance.
     """
+    permission_classes = [IsOwnerOrReadOnly]
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer

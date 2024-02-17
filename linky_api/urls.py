@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path as re
 
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
@@ -30,4 +30,7 @@ urlpatterns = [
     path('', include('profiles.urls')),  
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('', include('docs.urls')),  
+    path('dj-rest-auth/', include('dj_rest_auth.urls')),
+    path('dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
+    path('accounts/', include('allauth.urls')),
 ]

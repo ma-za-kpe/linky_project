@@ -13,7 +13,7 @@ class Project(models.Model):
 
     title = models.CharField(max_length=200)
     description = models.TextField()
-    created_by = models.ForeignKey(User, on_delete=models.CASCADE)
+    added_by = models.ForeignKey(User, on_delete=models.CASCADE)
     date_created = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
     visibility = models.CharField(max_length=10, choices=VISIBILITY_CHOICES)
