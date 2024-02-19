@@ -1,6 +1,4 @@
-======================
-LINKY - _Revolutionizing Knowledge Management_
-======================
+# LINKY - _Revolutionizing Knowledge Management_
 
 ## ABOUT
 
@@ -14,6 +12,7 @@ LINKY - _Revolutionizing Knowledge Management_
 - **View** a private list of projects
 - **Delete** project
 - **Delete** link
+- More features can be found here: [Docs](https://linky-3il1.onrender.com/swagger/)
 
 ## GOAL
 
@@ -77,19 +76,15 @@ LINKY - _Revolutionizing Knowledge Management_
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python3 -m venv linky-env`
 3. Activate Virtual Environment: `source linky-env/bin/activate`
-4. Install all dependecies: `pip install -r requirements.txt`
-5. Create `.env` file in the root folder.
-6. Perform Initial Database Migrations: `python3 manage.py migrate`
-7. (Optional) Create Superuser: `python3 manage.py createsuperuser`
-8. Run Development Server: `python3 manage.py runserver`
 
 ## INSTALLATION (WINDOWS OS)
-
-- Always refer to the [Django Installation](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
 
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python -m venv linky-env`
 3. Activate Virtual Environment: `env\Scripts\activate`
+
+## CONTINUE ...
+
 4. Install all dependecies: `pip install -r requirements.txt`
 5. Create `.env` file in the root folder.
 6. Perform Initial Database Migrations: `python3 manage.py migrate`
@@ -110,6 +105,6 @@ LINKY - _Revolutionizing Knowledge Management_
 
 ## BEST PRACTICES
 
-## TODO
+## CONTRIBUTION
 
 - Navigate to the [CONTRIBUTING.md]()
