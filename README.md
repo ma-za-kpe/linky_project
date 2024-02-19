@@ -110,3 +110,7 @@
 ## CONTRIBUTION
 
 - Please refer to the [CONTRIBUTING.md](https://github.com/ma-za-kpe/linky_project/blob/main/CONTRIBUTING.md)
+
+## TUTORIAL
+
+- Please refer to this for a tutorial on how to add Tags app to the project: [A Project and Tags relationship](https://github.com/ma-za-kpe/linky_project/blob/main/STEPS.md)
