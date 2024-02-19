@@ -109,4 +109,4 @@
 
 ## CONTRIBUTION
 
-- Navigate to the [CONTRIBUTING.md]()
+- Please refer to the [CONTRIBUTING.md](https://github.com/ma-za-kpe/linky_project/blob/main/CONTRIBUTING.md)
