@@ -1,4 +1,6 @@
-# LINKY - _Revolutionizing Knowledge Management_
+======================
+LINKY - _Revolutionizing Knowledge Management_
+======================
 
 ## ABOUT
 
@@ -13,9 +15,15 @@
 - **Delete** project
 - **Delete** link
 
-## OBJECTIVES
+## GOAL
+
+- The project aims to be a game-changer for startup founders by providing a comprehensive and practical guide on how to rapidly develop a robust Minimum Viable Product (MVP) in less than a week using Django. By leveraging the power of Django and a carefully curated selection of cutting-edge dependencies, the project empowers startup founders to quickly bootstrap their MVPs while adhering to the Lean Startup methodology.
 
 ## DEPLOYMENT
+
+- The project has been deployed to [Deploying Django on Render](https://docs.render.com/deploy-django)
+- Documentation [Redoc](https://linky-3il1.onrender.com/redoc/)
+- Documentation [Swagger](https://linky-3il1.onrender.com/swagger/)
 
 ## ENTITIES
 
@@ -100,21 +108,8 @@
 - `python3 manage.py migrate`
 - `python3 manage.py startapp posts`
 
-[//]: # "## STEPS TO RECREATE FROM SCRATCH"
-[//]: # "1. Open terminal and navigate to your desktop folder run: ``` mkdir linky-project ```"
-[//]: # "2. Navigate into the project: ``` cd  linky-project``` Run steps 2 and 3 from the [INSTALLATION] stage above."
-[//]: # "3. "
-
-<!-- # Windows
-$ cd onedrive\desktop\
-$ mkdir django_auth
-$ cd django_auth
-$ python -m venv .venv
-$ .venv\Scripts\Activate.ps1
-(.venv) $ python -m pip install django~=5.0.0 -->
-
 ## BEST PRACTICES
 
 ## TODO
 
-- Add windows installation instructions
+- Navigate to the [CONTRIBUTING.md]()
