@@ -69,11 +69,24 @@
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python3 -m venv linky-env`
 3. Activate Virtual Environment: `source linky-env/bin/activate`
-<!-- Consult with lucky -->
 4. Install all dependecies: `pip install -r requirements.txt`
-5. Perform Initial Database Migrations: `python3 manage.py migrate`
-6. (Optional) Create Superuser: `python3 manage.py createsuperuser`
-7. Run Development Server: `python3 manage.py runserver`
+5. Create `.env` file in the root folder.
+6. Perform Initial Database Migrations: `python3 manage.py migrate`
+7. (Optional) Create Superuser: `python3 manage.py createsuperuser`
+8. Run Development Server: `python3 manage.py runserver`
+
+## INSTALLATION (WINDOWS OS)
+
+- Always refer to the [Django Installation](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
+
+1. clone this repo and navigate to the linky_project folder
+2. Set Up Virtual Environment: `python -m venv linky-env`
+3. Activate Virtual Environment: `env\Scripts\activate`
+4. Install all dependecies: `pip install -r requirements.txt`
+5. Create `.env` file in the root folder.
+6. Perform Initial Database Migrations: `python3 manage.py migrate`
+7. (Optional) Create Superuser: `python3 manage.py createsuperuser`
+8. Run Development Server: `python3 manage.py runserver`
 
 ## COMMANDS USED
 
