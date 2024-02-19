@@ -26,6 +26,8 @@
 
 ## ENTITIES
 
+- For a complete list of features, please refer to the documentation [Swagger](https://linky-3il1.onrender.com/swagger/)
+
 ### Users:
 
 - **` username`**: _The username of the user._
