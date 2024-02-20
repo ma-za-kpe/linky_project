@@ -34,7 +34,8 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
     'linky-3il1.onrender.com',
-    'localhost'
+    'localhost',
+    '127.0.0.1'
 ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
@@ -68,7 +69,8 @@ INSTALLED_APPS = [
     'projects.apps.ProjectsConfig',
     'profiles.apps.ProfilesConfig',
     'docs.apps.DocsConfig',
-    "authentication.apps.AuthenticationConfig",
+    'authentication.apps.AuthenticationConfig',
+    'tags.apps.TagsConfig',
 ]
 
 REST_AUTH = {
@@ -150,18 +152,17 @@ WSGI_APPLICATION = 'linky_api.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-#  TODO 2: consult lucky
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
     
-    'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default= os.environ.get('DATABASE_URL'),
-        conn_max_age=600
-    ) 
+    # 'default': dj_database_url.config(
+    #     # Replace this value with your local database's connection string.
+    #     default= os.environ.get('DATABASE_URL'),
+    #     conn_max_age=600
+    # ) 
 }
 
 # Password validation

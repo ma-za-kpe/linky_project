@@ -49,7 +49,7 @@
 
     class TagSerializer(serializers.ModelSerializer):
         class Meta:
-            fields = ('id', 'title')
+            fields = ('id', 'name')
             model = Tags
     ```
 
