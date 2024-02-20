@@ -3,8 +3,9 @@ from rest_framework.response import Response
 from .models import Ndvi
 from .serializers import NdviSerializer
 from typing import Dict, Any
+from datetime import datetime
 
-from .ndvi_calculation import ndvi_gen
+from .ndvi_calculation import chart
 
 class NdviViewSet(viewsets.ModelViewSet):
     queryset = Ndvi.objects.all()
@@ -38,14 +39,25 @@ class NdviViewSet(viewsets.ModelViewSet):
         # Return a successful response with the serialized data
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
-    def calculate_ndvi(title: str, polygon: Dict[str, Any], start_date: str, end_date: str) -> float:
+    def calculate_ndvi(self, title: str, polygon: Dict[str, Any], start_date: str, end_date: str) -> float:
+        print(title, polygon, start_date, end_date)
+        
+        # Convert start_date and end_date to datetime objects
+        start_date_obj = datetime.strptime(start_date, '%Y-%m-%d')
+        end_date_obj = datetime.strptime(end_date, '%Y-%m-%d')
+
+        # Extract the timestamp or convert to the desired format
+        start_timestamp = start_date_obj.timestamp()  # Convert to Unix timestamp
+        end_timestamp = end_date_obj.timestamp()  # Convert to Unix timestamp
 
         # Call the ndvi_gen function to calculate NDVI
-        result = ndvi_gen(polygon['coordinates'][0], 400, int(start_date), int(end_date))  # Assuming width is 400
+        # result = ndvi_gen(polygon['coordinates'][0], 400, int(start_date), int(end_date))  # Assuming width is 400
+        # ndvi_gen(polygon['coordinates'][0], 400, start_timestamp, end_timestamp)  # Assuming width is 400
+        chart(polygon['coordinates'][0], 400, start_date, end_date)
 
         # Extract the NDVI value from the result
         # Adjust this according to the actual structure of the result
-        ndvi_value = 0.0  # Placeholder value, replace with the actual NDVI value
+        ndvi_value = 43.0  # Placeholder value, replace with the actual NDVI value
 
         return ndvi_value
     
