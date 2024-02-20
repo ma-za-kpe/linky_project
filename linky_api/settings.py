@@ -69,6 +69,7 @@ INSTALLED_APPS = [
     'profiles.apps.ProfilesConfig',
     'docs.apps.DocsConfig',
     "authentication.apps.AuthenticationConfig",
+    'ndvi.apps.NdviConfig',
 ]
 
 REST_AUTH = {
@@ -152,16 +153,16 @@ WSGI_APPLICATION = 'linky_api.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 #  TODO 2: consult lucky
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
     
-    'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default= os.environ.get('DATABASE_URL'),
-        conn_max_age=600
-    ) 
+    # 'default': dj_database_url.config(
+    #     # Replace this value with your local database's connection string.
+    #     default= os.environ.get('DATABASE_URL'),
+    #     conn_max_age=600
+    # ) 
 }
 
 # Password validation
