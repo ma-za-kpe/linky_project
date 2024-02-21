@@ -69,8 +69,8 @@ INSTALLED_APPS = [
     'projects.apps.ProjectsConfig',
     'profiles.apps.ProfilesConfig',
     'docs.apps.DocsConfig',
-    "authentication.apps.AuthenticationConfig",
-    'ndvi.apps.NdviConfig',
+    'authentication.apps.AuthenticationConfig',
+    'tags.apps.TagsConfig',
 ]
 
 REST_AUTH = {
@@ -152,7 +152,6 @@ WSGI_APPLICATION = 'linky_api.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-#  TODO 2: consult lucky
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

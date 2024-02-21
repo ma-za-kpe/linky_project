@@ -13,7 +13,7 @@ Our project has two main branches:
 
 1. **Send an Email to linky@dev.com**: Before contributing, please send an email to linky@dev.com expressing your interest in contributing. Once your request is reviewed and accepted, you will be added to the repository as a contributor.
 
-2. **Clone the Repository**: After being added as a contributor, clone the repository to your local machine using the following command: `git clone https://github.com/your-username/project.git`
+2. **Clone the Repository**: After being added as a contributor, clone the repository to your local machine using the following command: `git clone https://github.com/ma-za-kpe/linky_project.git`
 
 3. **Switch to the Develop Branch**: Before making any changes, switch to the develop branch using the following command: `git checkout develop`
 
