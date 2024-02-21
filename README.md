@@ -104,6 +104,7 @@
 - `python3 manage.py makemigrations posts`
 - `python3 manage.py migrate`
 - `python3 manage.py startapp posts`
+- Add these dependencies to your requirements.txt file:`pip freeze > requirements.txt`
 
 ## BEST PRACTICES
 
