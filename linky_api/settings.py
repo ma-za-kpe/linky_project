@@ -34,7 +34,8 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
     'linky-3il1.onrender.com',
-    'localhost'
+    'localhost',
+    '127.0.0.1'
 ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
