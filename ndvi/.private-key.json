@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "agriguard-414623",
+    "private_key_id": "133ad4ba8f0e3ee27e4007346e25ec7ffde95a9c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAIC6kttxIQNic\nGYLURB7NIlBhtvLlBgKR7Gk0KnefDXaVcfmwT0GL+WP4ASaff4rk1kqUs5ghikKa\ni24u4Dh7qZe6mcS+soV0I7gG6AcUPLVjEA2rByOr5Fbp0NmTAPI/x/xCQZluPzd7\nlC/W14/sxM5U0WoNvoj3Uh4gs4XS7PJzKlHdUtJlNMEibyhicV9msaJjhsAS0Sns\njs5U+jod29E6JEHRLMVpEmc4jzCex3m8hO0mkrxfTRJoqvkHVsOdYHw6Vvz9Wb4A\nCJCk/+pWfvoK9JH5OudRVWUdxBVZK+HKSWaZs3dvx8cbVvtsFuS8xN6DGd7YHZXE\nniH+MQLXAgMBAAECggEAB8TFXg+u1JUarSUy7xZaEH1ktq7JH42gqPngPyXAdIP8\n2YokSIbL5bcN3cdeInDr0tj/ZwfkDOckTk95Axg58HYpFniFRhi94LZZCJ51OtJB\nm2HYy6OcQ6UWBppVUeZl5UJW5u70H0sbGToivRM2VKKYnUFigm/D5gxB/5yCusac\nCqnXgUJGAWD7O2AAeWkmk5hgfD/xkw+7F0XgudF6ef9wEnxCF0tDQHP05GJdvreK\nSP+ZyKRn63YxfupyzQcou5CzZqhYBZeYRlp8jh2AZ49hdV7p+1DWW5zzx5gwo9Af\nvYN0afGjJceERFweNKSP6kY5wRb3b5HmzcaaAh8S0QKBgQDoZXZ9B1z38de1A+NP\nLcNJYC2JyG5NWhVsCNYdAQk+i36Nnm/zs1ndKtJrrnln1SiM8xt6KBhQkkqPpz5O\nNya+UgCfTocCe2FDxteea6/49gmgQp6PHjIzFJc6VdsOPK/dxCchaytZxKYgihp0\nnFUSyjgrJX4r0QUfx+/Dhe/YVQKBgQDTo6SNPh7iZ95v+SNWdgU5T3TTLw0Q3Is7\nYKIWZ6D3Xywuv81dz0A1vzIiiM3mDO0Twz2D+QzRcNbA3HqbBVLSN7jWm3Z1M19G\n1c8Ya7vlS5zcIAQnWYF9hBpiwh3xqjmYcT+lEiAQljNr2Bs9gyw5O5GHL/EL2fLx\nSNzCez3KewKBgQCMKuZUcuR4B736x+WKFCf9Ua0ltWYR8YuKJao+xCk3OBuUf0M2\n0a4Z34IawJkpLz/OA7NG8nf34MRn8I97zXfowrztWQfFT3VS09OpEXqJxpv3tTa9\nS5ErjffIj5AX/jJ0p6KSXXlAI4OvjJx4SPJm6uEF5Q88jk1w5b6PR3FqIQKBgEhb\nHDkF0f1J0ayqmsBGnUaYubIx1d+75wYn5YKPb2LjcPGStZ2q66L0eSmBaBOMu8kT\n6QYjsZQxZdqOBoTVbxlb35/PitJK+/n1w1XwD083aKuBbqodWb4V2geFokMrFYHe\nxgmjhr7k+zOVsMp4/Dec/AYiB+ErZHnFlWQQSnHdAoGAarQ5gJ54kFYumPkViILu\nT+/m2UuFOAtR7rvDBf2ufJwE7DtPPvzSErrOW0Ko3p7ieKF4ncKm0A8KAD9Zn0YX\ny+FReVHa6z0SLNhxWag6ed+CTvSvYyLLMmkrqnBrAm+tCKoxaCm4uH+nEUjMsgwk\n5qcasui84YIgvYn3YmFOOTY=\n-----END PRIVATE KEY-----\n",
+    "client_email": "agriguard-hack@agriguard-414623.iam.gserviceaccount.com",
+    "client_id": "113991274032084058424",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/agriguard-hack%40agriguard-414623.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
