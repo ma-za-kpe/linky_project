@@ -28,11 +28,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('projects.urls')),  
     path('', include('profiles.urls')),  
-<<<<<<< HEAD
-    path('', include('ndvi.urls')),  
-=======
     path('', include('tags.urls')),  
->>>>>>> develop
     path('api/auth/', include('authentication.urls')),
     # path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('', include('docs.urls')),  
