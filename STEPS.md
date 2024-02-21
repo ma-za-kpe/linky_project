@@ -19,6 +19,12 @@
 
 ## Step 6: Register the model in the admin app by adding to `tags/admin.py`: `admin.site.register(Tags)`
 
+
+```
+from .models import Tags 
+admin.site.register(Tags)
+```
+
 ## Step 7: Restrict tag actions to admins only (add, delete, update)
 
 ## Step 8: Use Django REST Framework to create a RESTful API:
