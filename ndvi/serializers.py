@@ -4,4 +4,4 @@ from .models import Ndvi
 class NdviSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ndvi
-        fields = '__all__'
+        fields = ['cvs_data']
