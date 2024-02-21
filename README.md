@@ -83,7 +83,7 @@
 
 1. clone this repo and navigate to the linky_project folder
 2. Set Up Virtual Environment: `python -m venv linky-env`
-3. Activate Virtual Environment: `env\Scripts\activate`
+3. Activate Virtual Environment: `linky-env\Scripts\activate`
 
 ## CONTINUE ...
 
