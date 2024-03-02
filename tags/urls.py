@@ -2,6 +2,6 @@ from django.urls import path
 from .views import TagList, TagDetail
 
 urlpatterns = [
-    path('/', TagDetail.as_view()),
-    path('', TagList.as_view()),
+    path('tags/<int:pk>/', TagDetail.as_view()),
+    path('tags', TagList.as_view()),
 ]
