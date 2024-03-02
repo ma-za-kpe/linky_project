@@ -118,6 +118,7 @@ MIDDLEWARE = [
     'djangorestframework_camel_case.middleware.CamelCaseMiddleWare',
      # Add the account middleware:
     "allauth.account.middleware.AccountMiddleware",
+    'linky_api.XFrameOptionsMiddleware.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'linky_api.urls'
