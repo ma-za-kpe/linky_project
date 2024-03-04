@@ -30,8 +30,8 @@
 
 ### Users:
 
-- **` username`**: _The username of the user._
-- **`email`**: _The email address of the user. _
+- **`username`**: _The username of the user._
+- **`email`**: _The email address of the user._
 - **`password`**: _The hashed password of the user._
 - **`full_name`**: _The full name of the user._
 - **`bio`**: _A short biography or description provided by the user._
@@ -42,7 +42,7 @@
 
 ### Links (URLs):
 
-- **` url`**: _The URL of the link._
+- **`url`**: _The URL of the link._
 - **`title`**: _The title or name associated with the link._
 - **`description`**: _A brief description or summary of the content of the link._
 - **`added_by`**: _The user who added the link to a project._
@@ -52,7 +52,7 @@
 ### Projects:
 
 - **`title`**: _The title or name of the project._
-- **` description`**: _A description of the project, outlining its purpose and goals._
+- **`description`**: _A description of the project, outlining its purpose and goals._
 - **`created_by`**: _The user who created the project._
 - **`date_created`**: _The date when the project was created._
 - **`last_modified`**: _The date when the project was last modified._
